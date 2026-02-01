@@ -1,0 +1,23 @@
+{
+  "name": "node_mocha_converter",
+  "version": "1.0.0",
+  "description": "npm install --save mocha chai npm install --save request npm install --save express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/calculator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
